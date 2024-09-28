@@ -11,16 +11,16 @@ sed -e "s|$SRCDIR/unix|/usr/lib|" \
     -e "s|$SRCDIR|/usr/include|"  \
     -i tclConfig.sh
 
-sed -e "s|$SRCDIR/unix/pkgs/tdbc1.1.3|/usr/lib/tdbc1.1.3|" \
-    -e "s|$SRCDIR/pkgs/tdbc1.1.3/generic|/usr/include|"    \
-    -e "s|$SRCDIR/pkgs/tdbc1.1.3/library|/usr/lib/tcl8.6|" \
-    -e "s|$SRCDIR/pkgs/tdbc1.1.3|/usr/include|"            \
-    -i pkgs/tdbc1.1.3/tdbcConfig.sh
+sed -e "s|$SRCDIR/unix/pkgs/tdbc1.1.9|/usr/lib/tdbc1.1.9|" \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.9/generic|/usr/include|"    \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.9/library|/usr/lib/tcl9.0|" \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.9|/usr/include|"            \
+    -i pkgs/tdbc1.1.9/tdbcConfig.sh
 
-sed -e "s|$SRCDIR/unix/pkgs/itcl4.2.2|/usr/lib/itcl4.2.2|" \
-    -e "s|$SRCDIR/pkgs/itcl4.2.2/generic|/usr/include|"    \
-    -e "s|$SRCDIR/pkgs/itcl4.2.2|/usr/include|"            \
-    -i pkgs/itcl4.2.2/itclConfig.sh
+sed -e "s|$SRCDIR/unix/pkgs/itcl4.3.1|/usr/lib/itcl4.3.1|" \
+    -e "s|$SRCDIR/pkgs/itcl4.3.1/generic|/usr/include|"    \
+    -e "s|$SRCDIR/pkgs/itcl4.3.1|/usr/include|"            \
+    -i pkgs/itcl4.3.1/itclConfig.sh
 
 unset SRCDIR
 
