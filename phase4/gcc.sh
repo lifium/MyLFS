@@ -33,11 +33,11 @@ fi
 make install
 
 chown -R root:root \
-    /usr/lib/gcc/*linux-gnu/12.2.0/include{,-fixed}
+    /usr/lib/gcc/*linux-gnu/14.2.0/include{,-fixed}
 
 ln -sr /usr/bin/cpp /usr/lib
 
-ln -sf ../../libexec/gcc/$(gcc -dumpmachine)/12.2.0/liblto_plugin.so \
+ln -sf ../../libexec/gcc/$(gcc -dumpmachine)/14.2.0/liblto_plugin.so \
         /usr/lib/bfd-plugins/
 
 mkdir -p /usr/share/gdb/auto-load/usr/lib

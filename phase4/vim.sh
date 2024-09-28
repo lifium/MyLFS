@@ -15,4 +15,4 @@ fi
 
 make install
 
-ln -sv ../vim/vim90/doc /usr/share/doc/vim-9.0.0228
+ln -sv ../vim/vim90/doc /usr/share/doc/vim-9.1.0405

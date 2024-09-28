@@ -1,6 +1,6 @@
 # Man-DB Phase 4
 ./configure --prefix=/usr                         \
-            --docdir=/usr/share/doc/man-db-2.10.2 \
+            --docdir=/usr/share/doc/man-db-2.13.0 \
             --sysconfdir=/etc                     \
             --disable-setuid                      \
             --enable-cache-owner=bin              \

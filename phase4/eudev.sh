@@ -19,8 +19,8 @@ fi
 
 make install
 
-tar -xf ../udev-lfs-20171102.tar.xz
-make -f udev-lfs-20171102/Makefile.lfs install
+tar -xf ../udev-lfs-20230818.tar.xz
+make -f udev-lfs-20230818/Makefile.lfs install
 
 udevadm hwdb --update
 

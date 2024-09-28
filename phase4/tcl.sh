@@ -33,14 +33,14 @@ fi
 
 make install
 
-chmod u+w /usr/lib/libtcl8.6.so
+chmod u+w /usr/lib/libtcl9.0.so
 
 make install-private-headers
 
-ln -sf tclsh8.6 /usr/bin/tclsh
+ln -sf tclsh9.0 /usr/bin/tclsh
 
 mv /usr/share/man/man3/{Thread,Tcl_Thread}.3
 
-mkdir -p /usr/share/doc/tcl-8.6.12
-cp -r  ../html/* /usr/share/doc/tcl-8.6.12
+mkdir -p /usr/share/doc/tcl-9.0.0
+cp -r  ../html/* /usr/share/doc/tcl-9.0.0
 
